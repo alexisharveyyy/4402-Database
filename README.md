@@ -480,27 +480,16 @@ print(f"Updated {updated_count} items")
 
 ```
 DATABASE PROJECT/
-├── README.md           # This documentation file
+├── README.md           
 ├── requirements.txt    # Python dependencies
 ├── schema.sql          # Database schema (DDL)
 ├── database.py         # Database connection utilities
-├── seed_data.py        # Data generation with Faker
+├── seed_data.py        # Data generation 
 ├── queries.py          # Test queries in Python
 ├── queries.sql         # Test queries in SQL
 ├── cli.py              # Command-line interface
 └── restaurant.db       # SQLite database (created after init)
 ```
 
-### File Descriptions
 
-| File | Purpose |
-|------|---------|
-| `schema.sql` | CREATE TABLE statements, indexes, and triggers |
-| `database.py` | Connection management and initialization |
-| `seed_data.py` | Generates 50 customers, 20 employees, 150 orders, etc. |
-| `queries.py` | Python functions for the 5 required queries |
-| `queries.sql` | Raw SQL for all test queries |
-| `cli.py` | Typer-based CLI with host/server/manager commands |
-
----
 
