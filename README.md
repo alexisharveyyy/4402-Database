@@ -4,6 +4,7 @@ A complete database application for managing a full-service restaurant, built wi
 
 **Course:** CSC 4402 - Database Systems  
 **Project:** Fall 2025 Database Project
+**Authors:** Alexis Harvey, Aaroh Desai, and Sean Pham
 
 ---
 
