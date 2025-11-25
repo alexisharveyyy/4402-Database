@@ -77,15 +77,6 @@ EMPLOYEES (self-referential: manager_id)
 | `orders` | Customer orders with totals and status |
 | `order_items` | Individual items within orders (weak entity) |
 
-### Key Relationships
-
-- Customers make reservations for tables
-- Employees are assigned to work shifts
-- Servers/Bartenders take orders from customers
-- Orders contain multiple order items
-- Each order item references a menu item
-- Menu items belong to categories
-- Managers supervise other employees (self-referential)
 
 ---
 
@@ -510,39 +501,6 @@ DATABASE PROJECT/
 | `queries.py` | Python functions for the 5 required queries |
 | `queries.sql` | Raw SQL for all test queries |
 | `cli.py` | Typer-based CLI with host/server/manager commands |
-
----
-
-## Quick Start
-
-```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Initialize database with sample data
-python cli.py init --seed
-
-# 3. Check status
-python cli.py status
-
-# 4. Run test queries
-python queries.py
-
-# 5. Try CLI commands
-python cli.py host tables 2025-12-01 18:00
-python cli.py manager report --type daily
-python cli.py server menu --category Appetizers
-```
-
----
-
-## Notes
-
-- All CLI commands use parameterized queries to prevent SQL injection
-- The database uses foreign key constraints (enabled via PRAGMA)
-- Triggers automatically update order totals when items are added
-- Data generation is seeded for reproducibility (Faker.seed(42))
-- Error handling provides clear, user-friendly messages
 
 ---
 
