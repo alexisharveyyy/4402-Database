@@ -1,0 +1,9 @@
+# Restaurant Database Project Dependencies
+# CSC 4402 - Database Systems
+
+# Core dependencies
+faker>=18.0.0        # Synthetic data generation
+typer>=0.9.0         # CLI framework
+rich>=13.0.0         # Beautiful terminal formatting
+
+# Note: sqlite3 is included in Python standard library
