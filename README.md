@@ -6,7 +6,8 @@ A complete database application for managing a full-service restaurant, built wi
 
 **Project:** Fall 2025 Database Project
 
-**Authors:** Alexis Harvey, Aaroh Desai, and Sean Pham
+**Authors:** Alexis Harvey, Aaroh Desai, Sean Pham, and Andres Vega
+
 
 ---
 
