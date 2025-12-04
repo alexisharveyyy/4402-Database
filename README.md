@@ -8,6 +8,9 @@ A complete database application for managing a full-service restaurant, built wi
 
 **Authors:** Alexis Harvey, Aaroh Desai, Sean Pham, and Andres Vega
 
+---
+
+
 **Note:** Please Note that while there is a test queries section listed below, test queries and their answers can be found throughout this document. 
 
 
